@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="sticky">
+            <div class="logo">Alam Kayu</div>
+            <ul class="nav-list">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#testimoni">Testimoni</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="burger">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </nav>
+    </header>
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>HandCrafted Perfection</h1>
+            <p>Custome Your Furnite and Woodwork Made With Passion And Precision</p>
+            <button onclick="scrollToPortfolio()">View Our Work</button>
+        </div>
+    </section>
+    
+    <section id="portfolio" class="portfolio">
+        <h2>Our Project</h2>
+        <button class="portfolio-nav left" onclick="scrollLeft()">&#60;</button>
+        <div class="portfolio-grid">
+            <div class="portfolio-item">
+                <img src="src/project.jpeg" alt="Table Design">
+            </div>
+            <div class="portfolio-item">
+                <img src="src/chair.jpeg" alt="Chair Design">
+            </div>
+            <div class="portfolio-item">
+                <img src="src/door.jpeg" alt="Door Design">
+            </div>
+            <div class="portfolio-item">
+                <img src="src/kitchen.jpeg" alt="Kitchen Set Design">
+            </div>
+        </div>
+        <button class="portfolio-nav right" onclick="scrollRight()">&#62;</button>
+    </section>
+
+    <section id="testimoni" class="testimoni">
+        <h2>Testimoni</h2>
+        <div class="testimoni-grid">
+            <div class="testimoni-card">
+                <img src="src/testimonial/foto1.jpeg" alt="John Doe">
+                <h3>John Doe</h3>
+                <p>"I was amazed by the quality of the woodwork! The design perfectly matched my vision, and the team was highly professional throughout the process."</p>
+            </div>
+            <div class="testimoni-card">
+                <img src="src/testimonial/foto2.jpeg" alt="Sarah Williams">
+                <h3>Sarah Williams</h3>
+                <p>"The team at AlamKayu exceeded my expectations. Not only did they deliver on time, but the craftsmanship of my furniture was exceptional. Highly recommend!"</p>
+            </div>
+            <div class="testimoni-card">
+                <img src="src/testimonial/foto3.jpeg" alt="David Johnson">
+                <h3>David Johnson</h3>
+                <p>"Incredible attention to detail. I’m so happy with the work done on my office space. It now has the professional and modern feel I wanted."</p>
+            </div>
+            <div class="testimoni-card">
+                <img src="src/testimonial/foto4.jpeg" alt="Emily Brown">
+                <h3>Emily Brown</h3>
+                <p>"I loved how collaborative the process was. They listened to my needs and delivered exactly what I envisioned, with a perfect balance of functionality and style."</p>
+            </div>
+            <div class="testimoni-card">
+                <img src="src/testimonial/foto5.jpeg" alt="Michael Lee">
+                <h3>Michael Lee</h3>
+                <p>"AlamKayu transformed my living room with their elegant and minimalistic designs. The team was friendly, and the result was exactly what I wanted!"</p>
+            </div>
+            <div class="testimoni-card">
+                <img src="src/testimonial/foto6.jpeg" alt="Michael Lee">
+                <h3>Michael Lee</h3>
+                <p>"AlamKayu transformed my living room with their elegant and minimalistic designs. The team was friendly, and the result was exactly what I wanted!"</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p>© 2025 AlamKayu. All Rights Reserved.</p>
+            <ul class="footer-nav">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="social-media">
+                <a href="https://github.com/Selalualwayskadangkidding"><img src="src/gitbg.png" alt="Github"></a>
+                <a href="https://www.instagram.com/selalualwayskadangkidding/"><img src="src/igbg.png" alt="Instagram"></a>
+                <a href="404.html"><img src="src/xbg.png" alt="Twitter"></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
